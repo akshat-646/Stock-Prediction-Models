@@ -1,10 +1,9 @@
-#Stock Price Prediction
-#Introduction
+**Stock Price Prediction**
+**Introduction**
 
 This project aims to predict stock prices using machine learning and deep learning models. It utilizes historical stock data such as opening price, closing price, high, low, and trading volume to forecast future prices. The goal is to demonstrate an end-to-end predictive workflow — from data collection and preprocessing to model training, evaluation, and visualization.
 
-#Features
-
+**Features**
 The dataset used in this project includes the following attributes:
 
 Date: The trading date.
@@ -21,7 +20,7 @@ Volume: The total number of shares traded on that day.
 
 Predicted Close: The model’s forecast of the future closing price (target variable).
 
-#Technology Used
+**Technology Used**
 
 The project utilizes the following Python libraries for data processing, visualization, and prediction:
 
@@ -39,12 +38,12 @@ tensorflow / keras – For implementing and training the LSTM (Long Short-Term M
 
 yfinance – For fetching real-time and historical stock market data.
 
-#Dataset
+**Dataset**
 
 The dataset is fetched using the Yahoo Finance API (yfinance). You can specify a stock ticker (e.g., AAPL, RELIANCE.NS, TCS.NS) to download its historical data for model training and prediction.
 The time frame and interval can be adjusted as needed (e.g., 5 years of daily data).
 
-#Workflow
+**Workflow**
 1. Import Libraries
 
 All required libraries are imported at the beginning of the notebook for data manipulation, visualization, and model building.
@@ -129,7 +128,7 @@ Training and Validation Loss Curves.
 
 Price Trend Forecast for Upcoming Days.
 
-#Usage
+**Usage**
 
 To run the project:
 
@@ -148,7 +147,7 @@ Train the model
 
 Visualize and predict stock prices
 
-#Future Enhancements
+**Future Enhancements**
 
 Implement hybrid models combining LSTM with ARIMA or Prophet.
 
